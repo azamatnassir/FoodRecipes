@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Recipes4Diet</string>
+    <string name="textView">FOOD RECIPES</string>
+    <string name="letsGo">Search</string>
+</resources>

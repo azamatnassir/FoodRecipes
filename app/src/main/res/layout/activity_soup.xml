@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityBaking"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="15dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/soup_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Black Bean Soup"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:fontFamily="@font/alegreya_sc"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="15dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/soup_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chicken Noodle Soup"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:fontFamily="@font/alegreya_sc"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="15dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/soup_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rice Vegetable Soup"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:fontFamily="@font/alegreya_sc"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="15dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/soup_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chicken Vegetable Soup"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:fontFamily="@font/alegreya_sc"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="15dp"
+            app:cardCornerRadius="10dp">
+
+            <TextView
+                android:id="@+id/soup_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Turkey Corn Chowder Soup"
+                android:textSize="25sp"
+                android:layout_margin="5dp"
+                android:textColor="#000"
+                android:fontFamily="@font/alegreya_sc"/>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</LinearLayout>
